@@ -108,3 +108,35 @@ header {
     justify-content: stretch;
 }
 
+
+@media (max-width: 600px) {
+  .chat {
+      min-height: 60vh;
+  }
+
+  #loading {
+    width: 92%
+  }
+}
+
+@media (max-width: 400px) {
+  .chat {
+      min-height: 30vh;
+  }
+
+  #loading {
+    width: 88%
+  }
+}
+
+
+@media (max-width: 300px) {
+  .chat {
+      min-height: 20vh;
+  }
+
+  #loading {
+    width: 87%
+  }
+}
+

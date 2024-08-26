@@ -2,7 +2,7 @@
     padding: 0 2% 40px;
     width: 100%;
     box-sizing: border-box;
-    height: 600px;
+    height: 500px;
     font-size: 20px;
     width: calc(100% 20px);
     padding: 10px;
@@ -68,3 +68,19 @@
     color: #00FF00;
     word-wrap: break-word; /* Asegura que el texto se ajuste */
 }
+
+
+
+@media (max-width: 400px) {
+    #chat-container {
+      height: 300px;
+    }
+  }
+
+
+
+@media (max-width: 300px) {
+    #chat-container {
+      height: 200px;
+    }
+  }
